@@ -11,6 +11,16 @@
 		BE315BFE2B6D6C2C00D5A899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315BFD2B6D6C2C00D5A899 /* ContentView.swift */; };
 		BE315C002B6D6C2E00D5A899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE315BFF2B6D6C2E00D5A899 /* Assets.xcassets */; };
 		BE315C032B6D6C2E00D5A899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE315C022B6D6C2E00D5A899 /* Preview Assets.xcassets */; };
+		BE315C0C2B6D6C7200D5A899 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315C0B2B6D6C7200D5A899 /* Task1.swift */; };
+		BE315C0E2B6D6DEC00D5A899 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315C0D2B6D6DEC00D5A899 /* Task2.swift */; };
+		BE315C102B6D725600D5A899 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315C0F2B6D725600D5A899 /* Task3.swift */; };
+		BE315C122B6D7FC800D5A899 /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315C112B6D7FC800D5A899 /* Task4.swift */; };
+		BE315C142B6D850D00D5A899 /* Task5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE315C132B6D850D00D5A899 /* Task5.swift */; };
+		BE536B222B6EC6260040C2EC /* Task5.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE536B212B6EC6260040C2EC /* Task5.1.swift */; };
+		BE62F3C52B6FDFA400E43A4B /* circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62F3C42B6FDFA400E43A4B /* circle.swift */; };
+		BE62F3C72B70039100E43A4B /* rectengle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62F3C62B70039100E43A4B /* rectengle.swift */; };
+		BE62F3CB2B70072400E43A4B /* starterscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62F3CA2B70072400E43A4B /* starterscreen.swift */; };
+		BE62F3CD2B700A6700E43A4B /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE62F3CC2B700A6700E43A4B /* mainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		BE315BFD2B6D6C2C00D5A899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE315BFF2B6D6C2E00D5A899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE315C022B6D6C2E00D5A899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE315C0B2B6D6C7200D5A899 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		BE315C0D2B6D6DEC00D5A899 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		BE315C0F2B6D725600D5A899 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		BE315C112B6D7FC800D5A899 /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
+		BE315C132B6D850D00D5A899 /* Task5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5.swift; sourceTree = "<group>"; };
+		BE536B212B6EC6260040C2EC /* Task5.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5.1.swift; sourceTree = "<group>"; };
+		BE62F3C42B6FDFA400E43A4B /* circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circle.swift; sourceTree = "<group>"; };
+		BE62F3C62B70039100E43A4B /* rectengle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rectengle.swift; sourceTree = "<group>"; };
+		BE62F3CA2B70072400E43A4B /* starterscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starterscreen.swift; sourceTree = "<group>"; };
+		BE62F3CC2B700A6700E43A4B /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 		BE315BFA2B6D6C2C00D5A899 /* FlexibleUi */ = {
 			isa = PBXGroup;
 			children = (
+				BE315C0A2B6D6C5C00D5A899 /* TasksScreen */,
 				BE315BFB2B6D6C2C00D5A899 /* FlexibleUiApp.swift */,
 				BE315BFD2B6D6C2C00D5A899 /* ContentView.swift */,
 				BE315BFF2B6D6C2E00D5A899 /* Assets.xcassets */,
@@ -65,6 +86,23 @@
 				BE315C022B6D6C2E00D5A899 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE315C0A2B6D6C5C00D5A899 /* TasksScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BE315C0B2B6D6C7200D5A899 /* Task1.swift */,
+				BE315C0D2B6D6DEC00D5A899 /* Task2.swift */,
+				BE315C0F2B6D725600D5A899 /* Task3.swift */,
+				BE315C112B6D7FC800D5A899 /* Task4.swift */,
+				BE315C132B6D850D00D5A899 /* Task5.swift */,
+				BE536B212B6EC6260040C2EC /* Task5.1.swift */,
+				BE62F3C42B6FDFA400E43A4B /* circle.swift */,
+				BE62F3C62B70039100E43A4B /* rectengle.swift */,
+				BE62F3CA2B70072400E43A4B /* starterscreen.swift */,
+				BE62F3CC2B700A6700E43A4B /* mainScreen.swift */,
+			);
+			path = TasksScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE315C0C2B6D6C7200D5A899 /* Task1.swift in Sources */,
+				BE62F3C72B70039100E43A4B /* rectengle.swift in Sources */,
+				BE315C102B6D725600D5A899 /* Task3.swift in Sources */,
+				BE315C142B6D850D00D5A899 /* Task5.swift in Sources */,
+				BE62F3CD2B700A6700E43A4B /* mainScreen.swift in Sources */,
 				BE315BFE2B6D6C2C00D5A899 /* ContentView.swift in Sources */,
+				BE315C122B6D7FC800D5A899 /* Task4.swift in Sources */,
+				BE62F3CB2B70072400E43A4B /* starterscreen.swift in Sources */,
 				BE315BFC2B6D6C2C00D5A899 /* FlexibleUiApp.swift in Sources */,
+				BE62F3C52B6FDFA400E43A4B /* circle.swift in Sources */,
+				BE315C0E2B6D6DEC00D5A899 /* Task2.swift in Sources */,
+				BE536B222B6EC6260040C2EC /* Task5.1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

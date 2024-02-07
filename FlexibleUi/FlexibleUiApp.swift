@@ -11,7 +11,7 @@ import SwiftUI
 struct FlexibleUiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            starterscreen()
         }
     }
 }
